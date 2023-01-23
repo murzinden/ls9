@@ -1,0 +1,264 @@
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext "); 
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: 'Roboto' ;
+
+}
+/* ------------------------------ */
+
+
+
+
+.sed {
+	padding: 110px 0px 169px 0px;
+	background: #F5F5F5 url(../img/sed/bgsed.png) 80% 300% / 623px 1437px no-repeat;
+}
+.sed__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.sed__box {
+	margin: 0px 0px 78px 0px;
+}
+.sed__box *:not(:last-child){
+	margin: 0px 0px 33px 0px;
+}
+.box {
+
+}
+.box__title {
+	padding: 0px 0px 0px 0px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2	;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+}
+.box__title::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/icon/logo.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 0px 10px -2px 0px;
+}
+.box__subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+}
+.sed__content {
+	margin: 0px 0px 33px 0px;
+}
+.sed__column {
+	margin: 0px 20px 24px 0px;
+}
+
+.sed__column:nth-child(3) {
+	margin-right: 0px;
+}
+.sed__column:nth-child(6) {
+	margin-right: 0px;
+}
+
+.sed__column {
+	font-size: 0px;
+	display: inline-block;
+	max-width: 324px;
+	text-align: center;
+	padding: 50px 44px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.sed__column:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24);
+}
+
+
+.sed__column *:not(:last-child){
+	margin: 0px 0px 20px 0px;
+}
+
+.sed_image {
+	display: inline-block;
+}
+.sed__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #F2726F;
+}
+.sed__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+.sed__btn {
+	text-align: center;
+}
+.sed__button {
+	padding: 12px 24px;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #F2726F;
+	border-radius: 10px;
+}
+
+
+.nemo {
+	padding: 112px 212px;
+	background: #29C3BE url(../img/nemo/bgnemo.png) 70% 0% / 695px 308px no-repeat;
+}
+.nemo__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.nemo__box {
+	margin: 0px 0px 78px 0px;
+	max-width: 411px;
+}
+.nemo__box *:not(:last-child){
+	margin: 0px 0px 33px 0px;
+}
+._white {
+	color: #fff;
+}
+._logow::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/icon/logow.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 0px 10px -2px 0px;
+}
+.box {
+}
+.box__title {
+}
+.box__subtitle {
+}
+.nemo__content {
+	
+}
+.nemo__column {
+	max-width: 237px;
+	display: inline-block;
+}
+.nemo__column:not(:last-child) {
+	margin: 0px 80px 0px 0px;
+}	
+.nemo__middle {
+	display: inline-block;
+}
+.nemo__image {
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+}
+.nemo__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFF;
+}
+.nemo__subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;	
+}
+.dog {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.dog__container {
+	margin: -610px 0px 1000px 490px
+}
+
+.nemo__dog-img {
+	border-radius: 40px;
+}
